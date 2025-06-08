@@ -32,3 +32,22 @@ You now have options to choose from.
 
 Step 7: Pick and Polish
 Choose the best prompt and edit it if needed to match your use case.
+
+## Concrete Prompt examples:
+```
+Create a CloudFormation template that builds the following infrastructure:
+
+* An S3 bucket containing web app code which allows users to upload files to S3.
+* The web app code is deployed to and hosted via AWS Amplify
+* An S3 bucket which stores the uploaded files.
+* File upload is done via an S3 pre-signed URL, created by a Lambda function.
+* The Lambda function is invoked via API Gatway, and the API Gateway api is called from the web app.
+```
+
+```
+Make a suggestion by creating a README.md file which explains an AWS service based infrastructure, implementing these requirements:
+* A web app which can be used both by a desktop computer, but also by a smartphone
+* The web app allows for recording a message up to 2 minutes.
+* This message is sent to Amazon Transcribe to have it transcribed to text.
+* The text is stored in an existing S3 bucket.
+```
